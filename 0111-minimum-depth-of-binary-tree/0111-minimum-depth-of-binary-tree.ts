@@ -21,5 +21,5 @@ function minDepth(root: TreeNode | null): number {
 
     if (!root.right) return minDepth(root.left) + 1;
 
-    return Math.min(minDepth(root.left), minDepth(root.right)) + 1
+    return Math.min(minDepth(root.left), minDepth(root.right)) + 1;
 };
