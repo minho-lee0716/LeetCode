@@ -10,7 +10,7 @@ class Solution:
         self.dfs(graph, source, destination, visited)
         return visited[destination]
 
-    def dfs(self, graph: List[List[int]], v: int, target: int, visited: List[bool]) -> bool:
+    def dfs(self, graph: List[List[int]], v: int, target: int, visited: List[bool]):
         visited[v] = True
         for i in graph[v]:
             if i == target:
