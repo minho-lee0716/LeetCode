@@ -13,6 +13,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0111-minimum-depth-of-binary-tree](https://github.com/minho-lee0716/LeetCode/tree/master/0111-minimum-depth-of-binary-tree) |
 | [0112-path-sum](https://github.com/minho-lee0716/LeetCode/tree/master/0112-path-sum) |
 | [0144-binary-tree-preorder-traversal](https://github.com/minho-lee0716/LeetCode/tree/master/0144-binary-tree-preorder-traversal) |
+| [0145-binary-tree-postorder-traversal](https://github.com/minho-lee0716/LeetCode/tree/master/0145-binary-tree-postorder-traversal) |
 ## Depth-First Search
 |  |
 | ------- |
@@ -23,6 +24,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0111-minimum-depth-of-binary-tree](https://github.com/minho-lee0716/LeetCode/tree/master/0111-minimum-depth-of-binary-tree) |
 | [0112-path-sum](https://github.com/minho-lee0716/LeetCode/tree/master/0112-path-sum) |
 | [0144-binary-tree-preorder-traversal](https://github.com/minho-lee0716/LeetCode/tree/master/0144-binary-tree-preorder-traversal) |
+| [0145-binary-tree-postorder-traversal](https://github.com/minho-lee0716/LeetCode/tree/master/0145-binary-tree-postorder-traversal) |
 | [2121-find-if-path-exists-in-graph](https://github.com/minho-lee0716/LeetCode/tree/master/2121-find-if-path-exists-in-graph) |
 ## Breadth-First Search
 |  |
@@ -43,6 +45,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0111-minimum-depth-of-binary-tree](https://github.com/minho-lee0716/LeetCode/tree/master/0111-minimum-depth-of-binary-tree) |
 | [0112-path-sum](https://github.com/minho-lee0716/LeetCode/tree/master/0112-path-sum) |
 | [0144-binary-tree-preorder-traversal](https://github.com/minho-lee0716/LeetCode/tree/master/0144-binary-tree-preorder-traversal) |
+| [0145-binary-tree-postorder-traversal](https://github.com/minho-lee0716/LeetCode/tree/master/0145-binary-tree-postorder-traversal) |
 ## Array
 |  |
 | ------- |
@@ -55,6 +58,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0144-binary-tree-preorder-traversal](https://github.com/minho-lee0716/LeetCode/tree/master/0144-binary-tree-preorder-traversal) |
+| [0145-binary-tree-postorder-traversal](https://github.com/minho-lee0716/LeetCode/tree/master/0145-binary-tree-postorder-traversal) |
 ## Union Find
 |  |
 | ------- |
