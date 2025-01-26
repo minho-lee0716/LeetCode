@@ -22,9 +22,10 @@
 class Solution:
     def isAnagram(self, s: str, t: str) -> bool:
         while (len(s) != 0):
-            if s.count(s[0]) != t.count(s[0]):
+            curr = s[0]
+            if s.count(curr) != t.count(curr):
                 return False
-            s, t = s.replace(s[0], ''), t.replace(s[0], '')
+            s, t = s.replace(curr, ''), t.replace(curr, '')
             if len(s) != len(t):
                 return False
         return True
