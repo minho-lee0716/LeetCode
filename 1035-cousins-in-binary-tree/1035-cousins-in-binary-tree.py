@@ -6,7 +6,8 @@
 #         self.right = right
 class Solution:
     def isCousins(self, root: Optional[TreeNode], x: int, y: int) -> bool:
-        node_x, node_y = [None, 0, False], [None, 0, False]
+        # diff parents && same depth >>> cousins
+        node_x, node_y = [None, 0, False], [None, 0, False] # parent, depth, visited(find?)
         def wrap(node: Optional[TreeNode], parent: int, depth: int):
             if not node:
                 return
@@ -17,6 +18,7 @@ class Solution:
             if node.val == y:
                 node_y[0], node_y[1], node_y[2] = parent, depth, True
 
+            # if visited x, y
             if node_x[2] and node_y[2]:
                 return
 
