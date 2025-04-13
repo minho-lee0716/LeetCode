@@ -6,23 +6,20 @@
 #         self.right = right
 class Solution:
     def pathSum(self, root: Optional[TreeNode], targetSum: int) -> int:
-        def calculateCount(node, current_sum):
-            if not node:
-                return 0
+        self.count = 0
+        prefixSum = {0:1}
 
-            current_sum += node.val
-            count = 1 if current_sum == targetSum else 0
-            count += calculateCount(node.left, current_sum)
-            count += calculateCount(node.right, current_sum)
-            return count
-        
-        def dfs(node):
-            if not node:
-                return 0
-            
-            count = calculateCount(node, 0)
-            count += dfs(node.left)
-            count += dfs(node.right)
-            return count
-        
-        return dfs(root)
+        def dfs(node: Optional[TreeNode], currSum: int):
+            if not node: return
+
+            currSum += node.val
+            self.count += prefixSum.get(currSum - targetSum, 0)
+            prefixSum[currSum] = prefixSum.get(currSum, 0) + 1
+
+            dfs(node.left, currSum)
+            dfs(node.right, currSum)
+
+            prefixSum[currSum] -= 1
+
+        dfs(root, 0)
+        return self.count
