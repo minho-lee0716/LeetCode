@@ -92,6 +92,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0125-valid-palindrome](https://github.com/minho-lee0716/LeetCode/tree/master/0125-valid-palindrome) |
 | [0283-move-zeroes](https://github.com/minho-lee0716/LeetCode/tree/master/0283-move-zeroes) |
 | [0345-reverse-vowels-of-a-string](https://github.com/minho-lee0716/LeetCode/tree/master/0345-reverse-vowels-of-a-string) |
+| [0392-is-subsequence](https://github.com/minho-lee0716/LeetCode/tree/master/0392-is-subsequence) |
 | [1894-merge-strings-alternately](https://github.com/minho-lee0716/LeetCode/tree/master/1894-merge-strings-alternately) |
 ## Stack
 |  |
@@ -114,6 +115,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0125-valid-palindrome](https://github.com/minho-lee0716/LeetCode/tree/master/0125-valid-palindrome) |
 | [0242-valid-anagram](https://github.com/minho-lee0716/LeetCode/tree/master/0242-valid-anagram) |
 | [0345-reverse-vowels-of-a-string](https://github.com/minho-lee0716/LeetCode/tree/master/0345-reverse-vowels-of-a-string) |
+| [0392-is-subsequence](https://github.com/minho-lee0716/LeetCode/tree/master/0392-is-subsequence) |
 | [1894-merge-strings-alternately](https://github.com/minho-lee0716/LeetCode/tree/master/1894-merge-strings-alternately) |
 ## Hash Table
 |  |
@@ -132,6 +134,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/minho-lee0716/LeetCode/tree/master/0121-best-time-to-buy-and-sell-stock) |
+| [0392-is-subsequence](https://github.com/minho-lee0716/LeetCode/tree/master/0392-is-subsequence) |
 | [1474-longest-zigzag-path-in-a-binary-tree](https://github.com/minho-lee0716/LeetCode/tree/master/1474-longest-zigzag-path-in-a-binary-tree) |
 ## Sorting
 |  |
