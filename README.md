@@ -147,4 +147,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0530-minimum-absolute-difference-in-bst](https://github.com/minho-lee0716/LeetCode/tree/master/0530-minimum-absolute-difference-in-bst) |
 | [0783-search-in-a-binary-search-tree](https://github.com/minho-lee0716/LeetCode/tree/master/0783-search-in-a-binary-search-tree) |
+## Database
+|  |
+| ------- |
+| [0175-combine-two-tables](https://github.com/minho-lee0716/LeetCode/tree/master/0175-combine-two-tables) |
 <!---LeetCode Topics End-->
